@@ -1,13 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>sliderFa</title>
+    <link rel="stylesheet" href="./public/fonts/font.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="./src/script.js" defer></script>
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
-</html>
+    <div class="container">
+      <div class="panel active"
+        style="background-image: url(./public/images/1.jpg)">
+        <h3>Burj Khalifa</h3>
+        <h4>Emirates</h4>
+        <p>
+          "The Burj Khalifa, formerly known as the Burj Dubai before its
+          inauguration, stands as a monumental skyscraper in Dubai, United Arab
+          Emirates, and holds the prestigious title of the world's tallest
+          structure. Soaring to a total height of 829.8 meters (2,722 feet, or
+          just over half a mile) and boasting a roof height of 828 meters (2,717
+          feet, excluding the antenna but including a 242.6-meter spire), the
+          Burj Khalifa has reigned as the tallest building globally since its
+          topping out in 2009. It surpassed the Taipei 101, the previous
+          record-holder, and continues to be an iconic symbol of architectural
+          achievement and innovation."
+        </p>
+      </div>
+
+      <div class="panel" style="background-image: url(./public/images/2.jpg)">
+        <h3>Merdeka 118</h3>
+        <h4>Malaysia</h4>
+        <p>
+          "Merdeka 118, formerly known as Menara Warisan Merdeka, KL 118, and
+          PNB 118, is a towering 118-story megatall skyscraper gracing Kuala
+          Lumpur's skyline. Standing proudly at 678.9 meters (2,227 feet), it
+          secures the position of the second-tallest building and structure
+          globally, surpassed only by the iconic Burj Khalifa at 828 meters
+          (2,717 feet). Beyond its impressive height, Merdeka 118 serves as a
+          symbol of Kuala Lumpur's commitment to architectural innovation and
+          modernity on the international stage."
+        </p>
+      </div>
+      <div class="panel" style="background-image: url(./public/images/3.jpg)">
+        <h3>Shanghai Tower</h3>
+        <h4>China</h4>
+        <p>
+          "Shanghai Tower, a beacon of modern design, stands as the world's
+          third-tallest building. Soaring over 630 meters with 128 floors, it
+          graces Shanghai's skyline with its distinctive spiral form. This
+          architectural marvel not only exemplifies China's commitment to
+          innovation but also contributes to the city's dynamic and futuristic
+          urban landscape."
+        </p>
+      </div>
+      <div class="panel" style="background-image: url(./public/images/4.jpg)">
+        <h3>Makkah Royal</h3>
+        <h4>Saudi Arabia</h4>
+        <p>
+          "The Makkah Clock Royal Tower, formerly known as Abraj Al Bait, stand
+          as a government-owned complex of seven skyscraper hotels in Mecca,
+          Saudi Arabia. Integral to the King Abdulaziz Endowment Project, these
+          towers aim to modernize the city to better serve its pilgrims. Among
+          them, the Makkah Clock Royal Tower, serving as the central hotel
+          tower, not only ranks as the fourth-tallest building globally but also
+          holds the sixth-tallest freestanding structure worldwide. Beyond its
+          impressive stature, the clock tower houses the Clock Tower Museum
+          across its top four floors, contributing to the cultural significance
+          of this iconic landmark."
+        </p>
+      </div>
+      <div class="panel" style="background-image: url(./public/images/5.jpg)">
+        <h3>Burj Milad</h3>
+        <h4>Iran</h4>
+        <p>
+          "The Milad Tower, also known as the Tehran Tower, stands as a
+          versatile landmark in Tehran, Iran. As the world's first
+          telecommunication tower in terms of usage area at the top structure,
+          it claims the title of the sixth-tallest tower globally. Not only is
+          it the tallest tower in Iran, but it also ranks as the 24th-tallest
+          freestanding structure worldwide. The meticulous construction of this
+          iconic tower spanned approximately 11 years and 7 months, showcasing
+          Iran's architectural prowess and technological advancement."
+        </p>
+      </div>
+    </div>
+    <!-- closing sidebar by clicking outside and menu link -->
+    <div id="toggle"></div>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
+  </html>
+</body>
